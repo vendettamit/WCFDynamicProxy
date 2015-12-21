@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDynamicProxy", "WcfDynamicProxy\WcfDynamicProxy.csproj", "{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDynamicProxy.Tests", "WcfDynamicProxy.Tests\WcfDynamicProxy.Tests.csproj", "{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyService", "DummyService\DummyService.csproj", "{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
