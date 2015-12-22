@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ServiceModel;
 
-using DummyService.Contracts;
+using SampleService.Contracts;
 
-namespace DummyService.Service
+namespace SampleService.Impl
 {
     /// <summary>
     /// The test service.
