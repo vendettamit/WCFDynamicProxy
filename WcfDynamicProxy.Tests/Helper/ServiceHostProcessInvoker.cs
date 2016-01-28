@@ -22,7 +22,7 @@ namespace WcfDynamicProxy.Tests.Helper
         {
             var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            ProcessStartInfo info = new ProcessStartInfo(Path.Combine(path, "DummyService.exe"));
+            ProcessStartInfo info = new ProcessStartInfo(Path.Combine(path, "SampleService.Host.exe"));
 
             info.UseShellExecute = true;
             info.WorkingDirectory = path;

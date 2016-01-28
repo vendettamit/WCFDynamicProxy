@@ -68,15 +68,19 @@
     <None Include="App.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="DummyService.exe.config">
+    <None Include="SampleService.Host.exe.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DummyService\DummyService.csproj">
+    <ProjectReference Include="..\DummyService\SampleService.Host.csproj">
       <Project>{1dd678f0-d84d-459e-9dc4-c3e0c9ceaf37}</Project>
-      <Name>DummyService</Name>
+      <Name>SampleService.Host</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleService.Contracts\SampleService.Contracts.csproj">
+      <Project>{266294d9-d27b-48ee-9650-c03f3271595b}</Project>
+      <Name>SampleService.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\WcfDynamicProxy\WcfDynamicProxy.csproj">
       <Project>{2f50444b-4cda-4d9d-bbc9-7789e425a2c6}</Project>

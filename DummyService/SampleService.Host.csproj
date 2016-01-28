@@ -7,8 +7,8 @@
     <ProjectGuid>{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DummyService</RootNamespace>
-    <AssemblyName>DummyService</AssemblyName>
+    <RootNamespace>SampleService.Host</RootNamespace>
+    <AssemblyName>SampleService.Host</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,14 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleHost.cs" />
-    <Compile Include="Contracts\ITestService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\TestService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampleService.Contracts\SampleService.Contracts.csproj">
+      <Project>{266294d9-d27b-48ee-9650-c03f3271595b}</Project>
+      <Name>SampleService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleService.Impl\SampleService.Impl.csproj">
+      <Project>{f380eb0f-c299-402e-97de-353d01506971}</Project>
+      <Name>SampleService.Impl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

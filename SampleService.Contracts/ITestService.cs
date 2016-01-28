@@ -5,7 +5,7 @@ using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DummyService.Contracts
+namespace SampleService.Contracts
 {
     /// <summary>
     /// The TestService interface.

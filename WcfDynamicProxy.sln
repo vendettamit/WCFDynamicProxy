@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDynamicProxy", "WcfDynamicProxy\WcfDynamicProxy.csproj", "{2F50444B-4CDA-4D9D-BBC9-7789E425A2C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDynamicProxy.Tests", "WcfDynamicProxy.Tests\WcfDynamicProxy.Tests.csproj", "{4838CEF6-CDC1-4F6D-899B-E19588EBC2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyService", "DummyService\DummyService.csproj", "{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Host", "DummyService\SampleService.Host.csproj", "{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Contracts", "SampleService.Contracts\SampleService.Contracts.csproj", "{266294D9-D27B-48EE-9650-C03F3271595B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Impl", "SampleService.Impl\SampleService.Impl.csproj", "{F380EB0F-C299-402E-97DE-353D01506971}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD678F0-D84D-459E-9DC4-C3E0C9CEAF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266294D9-D27B-48EE-9650-C03F3271595B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266294D9-D27B-48EE-9650-C03F3271595B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266294D9-D27B-48EE-9650-C03F3271595B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266294D9-D27B-48EE-9650-C03F3271595B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F380EB0F-C299-402E-97DE-353D01506971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F380EB0F-C299-402E-97DE-353D01506971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F380EB0F-C299-402E-97DE-353D01506971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F380EB0F-C299-402E-97DE-353D01506971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
