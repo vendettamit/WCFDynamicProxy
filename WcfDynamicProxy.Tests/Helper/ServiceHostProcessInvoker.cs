@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -26,7 +27,9 @@ namespace WcfDynamicProxy.Tests.Helper
             info.UseShellExecute = true;
             info.WorkingDirectory = path;
 
-            Process.Start(info);
+            var process = Process.Start(info);
+
+            AttachDebugger.ToProcess(process.Id);
         }
 
         /// <summary>
